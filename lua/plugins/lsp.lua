@@ -1,6 +1,6 @@
-if true then
-  return {}
-end
+-- if true then
+--   return {}
+-- end
 
 return {
   -- override nvim-cmp and add cmp-emoji
