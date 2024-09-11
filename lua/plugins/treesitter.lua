@@ -14,8 +14,10 @@ return -- add more treesitter parsers
   },
   {
     "nvim-treesitter/nvim-treesitter",
+    event = "VeryLazy",
     opts = {
       ensure_installed = {
+        "cpp",
         "bash",
         "html",
         "javascript",
