@@ -43,7 +43,7 @@ return {
     },
   },
 
-  -- Configure LazyVim to load gruvbox
+  -- Load the catppuccin theme
   {
     "LazyVim/LazyVim",
     opts = {
