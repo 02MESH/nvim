@@ -1,0 +1,58 @@
+{
+  "main": {
+    "prefix": "cpp",
+    "description": "Main cpp boilerplate",
+    "body": [
+      "#include <cstdio> //https://github.com/mfussenegger/nvim-dap/issues/1061#issuecomment-1773218073",
+      "#include <iostream>",
+      "#include <vector>",
+      "#include <string>",
+      "#include <cstring>",
+      "#include <map>",
+      "#include <unordered_map>",
+      "#include <set>",
+      "#include <unordered_set>",
+      "#include <algorithm>",
+      "#include <cmath>",
+      "#include <tuple>",
+      "#include <numeric>",
+      "#include <random>",
+      "#include <cctype> //https://en.cppreference.com/w/cpp/header/cctype",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "\tsetvbuf(stdout, nullptr, _IONBF, 0); //For debugging the buffer correctly)",
+      "\t${0}",
+      "\treturn 1;",
+      "}"
+    ]
+  },
+  "ListNode": {
+    "prefix": "ListNode",
+    "description": "Definition of a ListNode structure",
+    "body": [
+      "struct ListNode {",
+      "\tint val;",
+      "\tListNode *next;",
+      "\tListNode() : val(0), next(nullptr) {}",
+      "\tListNode(int x) : val(x), next(nullptr) {}",
+      "\tListNode(int x, ListNode *next) : val(x), next(next) {}",
+      "};"
+    ]
+  },
+  "TreeNode": {
+    "prefix": "TreeNode",
+    "description": "Definition of a TreeNode structure",
+    "body": [
+      "struct TreeNode {",
+      "\tint val;",
+      "\tTreeNode *left;",
+      "\tTreeNode *right;",
+      "\tTreeNode() : val(0), left(nullptr), right(nullptr) {}",
+      "\tTreeNode(int x) : val(x), left(nullptr), right(nullptr) {}",
+      "\tTreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}",
+      "};"
+    ]
+  }
+}
