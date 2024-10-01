@@ -1,4 +1,4 @@
 return {
-  { import = "plugins.extra.dap.core" },
+  { import = "lazyvim.plugins.extras.dap.core" },
   { import = "plugins.dap" },
 }
