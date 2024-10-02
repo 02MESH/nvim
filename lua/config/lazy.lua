@@ -19,6 +19,10 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
+
+    -- Download DAP
+    { import = "lazyvim.plugins.extras.dap.core" },
+
     -- import/override with your plugins
     { import = "plugins" },
   },
